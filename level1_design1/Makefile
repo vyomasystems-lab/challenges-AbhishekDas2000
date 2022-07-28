@@ -4,7 +4,11 @@ TOPLEVEL_LANG ?= verilog
 
 PWD=$(shell pwd)
 
-VERILOG_SOURCES = $(PWD)/mux.v
+#Testing the original design
+# VERILOG_SOURCES = $(PWD)/mux.v
+
+# Testing the modified verilog design
+VERILOG_SOURCES = $(PWD)/mux_modified.v
 
 TOPLEVEL := mux          # design
 MODULE   := test_mux     # test
