@@ -14,7 +14,7 @@ This is a simple 1011 sequence detector implemented in **Verilog**
 
 ## Verification Strategy
 
-The cocotb test bench has 2 tests
+The cocotb test bench has 1 test
 1. test_seq_bug()
 ### test_seq_bug()
 This tests a simple case to determine that the sequence detector is working as intended. It inputs `000111011011011011 ` in `inp_bit` line bit-by-bit in each clock cycle. Then the test bench then stores the output from `seq_seen` in a list `positions_circuit`. The expected output is obtained from the model file and stored in `positions_model` list. After all the outputs are obtained from the circuit the testbench asserts whether the outpit obtained from the circuit matches with that of the model
