@@ -41,5 +41,8 @@ It should be replaced with
 ```verilog
 s3: state = while_flag ? s4 : s15; 
 ```
+## Design Source
+
+[Design Source Code](https://opencores.org/projects/xtea)
 
 
