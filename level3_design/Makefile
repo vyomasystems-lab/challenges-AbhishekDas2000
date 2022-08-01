@@ -4,10 +4,10 @@ TOPLEVEL_LANG ?= verilog
 
 PWD=$(shell pwd)
 
-VERILOG_SOURCES = $(PWD)/               # provide your design path
+VERILOG_SOURCES = $(PWD)/xtea.v
 
-TOPLEVEL :=           # design file
-MODULE   :=     # test file
+TOPLEVEL := xtea       # design
+MODULE   := test_xtea   # test
 
 include $(shell cocotb-config --makefiles)/Makefile.sim
 
