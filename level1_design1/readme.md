@@ -33,5 +33,7 @@ On running the `test_mux_random()` test, it was found that there was an assertio
 and the modified design is stored in `mux_modified.v`
 
 ## Screenshot
+### Failing Test
 ![Error Screenshot](../Assets/level1_design_1_error.png "Title")
+### Passing Test
 ![Passing Screenshot](../Assets/level1_design_1_correct.png "Correct")
