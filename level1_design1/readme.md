@@ -32,3 +32,6 @@ This test inputs a `3-bit` random number in every `inp` lines and then uses a `f
 On running the `test_mux_random()` test, it was found that there was an assertion error on selecting the `inp12` pin.  After initial rounds of debugging, it was found that the line 40 in the muv.v file i.e `5'b01101: out = inp12;`  had a bug. It should be `5'b01100: out = inp12;`
 and the modified design is stored in `mux_modified.v`
 
+## Screenshot
+![Error Screenshot](Assets/level1_design_1_error.png "Title")
+![Passing Screenshot](Assets/level1_design_1_correct.png "Correct")
