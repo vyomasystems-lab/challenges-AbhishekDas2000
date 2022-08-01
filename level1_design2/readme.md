@@ -57,3 +57,8 @@ IDLE -- 0--> IDLE
 ```
 If the statemachine is in state `101` and the input is `1` then the state machine moves to `IDLE` state and makes the `seq_seen` output high
 
+## Screenshot
+### Failing Test
+![Error Screenshot](../Assets/level1_design_2_error.png "Title")
+### Passing Test
+![Passing Screenshot](../Assets/level1_design_2_correct.png "Correct")
